@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE layout SYSTEM "dtd/layout.dtd">
+<layouts>
+        <layout name="blog" title="Blog" desc="Blog page layout" modules="blog" template="blog.xhtml"/>
+</layouts>

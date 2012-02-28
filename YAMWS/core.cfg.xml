@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE config SYSTEM "./dtd/core.cfg.dtd">
+<config>
+        <setting name="UseCaching" value="1" type="bool" />
+        <setting name="CacheDir" value="core_misc/cache" type="string" />
+        <setting name="ModuleListXML" value="modlist.xml" type="string" />
+        <setting name="DepCheck" value="1" type="bool" />
+        <setting name="MoreErrorInfo" value="1" type="bool" />
+        <setting name="DefaultLayout" value="blog" type="string" />
+        <setting name="LayoutListXML" value="layouts.xml" type="string" />
+        <setting name="SkinDir" value="skins" type="string" />
+        <setting name="DefaultSkin" value="d" type="string" />
+        <setting name="LangDir" value="lang" type="string" />
+        <setting name="DefaultLang" value="ru" type="string" />
+        <setting name="LayoutSubDir" value="layout_templates" type="string" />
+</config>

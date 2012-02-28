@@ -1,0 +1,248 @@
+/* Created by TopStyle Pro Trial Version - www.bradsoft.com */
+/* общие стили */
+
+a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #525252;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #124AB4;
+}
+
+
+
+body {
+	background-color: #F2F9F6;
+	background-image: url(<#IMG_DIR#>/bg.gif);
+	font-family: Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+em {
+	color: #800000;
+	font-style: normal;
+	font-weight: bold;
+}
+
+small {
+	font: xx-small;
+}
+
+.bottomline {
+	background-color: #B8D1C5;
+	font-size: x-small;
+	vertical-align: baseline;
+}
+
+img {
+	border: none;
+}
+
+
+.copyright {
+	background-color: #FFCACA;
+	font-size: smaller;
+	text-align: center;
+}
+
+.edit_date {
+	color: #808080;
+	font-size: xx-small;
+	font-style: italic;
+}
+
+.error {
+	background-color: #FFBDBD;
+	color: #660000;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.heading {
+	border: none;
+	font-size: large;
+	font-weight: bold;
+	width: 100%;
+}
+
+.rss_heading {
+	border: none;
+	font-weight: bold;
+	width: 100%;
+	background-color: White;
+}
+
+.iteminfo {
+	font-size: x-small;
+	font-style: italic;
+}
+
+.keywords {
+	font-style: italic;
+	font-size: smaller;
+}
+
+.category
+ {
+	font-style: italic;
+	font-size: smaller;
+	color: Gray;
+}
+a.category {
+	color: Gray;
+}
+.logo{
+	background-image: url(header_tile.jpg);
+}
+
+.h2 {
+	text-align: center;
+}
+
+.mainlink {
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+
+.module{
+	background-color: #DCEBE5;
+	margin: 2px;
+	padding: 2px;
+}
+
+.music{
+	font-style: italic;
+	font-size: smaller;
+}
+
+.mood{
+	font-style: italic;
+	font-size: smaller;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.note {
+	background-color: #FFE9AE;
+	color: #D8A838;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+.status {
+	background-color: #BDDFFF;
+	color: #003466;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.subheading {
+	background-color: #B8D0D1;
+	border: none;
+	font-size: medium;
+	font-weight: bold;
+	width: 100%;
+}
+
+.cell1 {
+	background-color: #A2BFB1;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+.cell1hl {
+	background-color: #C8DDD3;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+	padding-right: 3px;
+}
+
+.cell2 {
+	background-color: #C4DACE;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.rowborder {
+	border: 1px solid;
+}
+
+.msgrow {
+	background-color: #E7F4EB;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom: 1px solid;
+}
+
+.msgrow_small {
+	background-color: #E7F4EB;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom: 1px solid;
+	size: small;
+}
+
+.desc {
+	background-color: #F4F4F4;
+	color: Gray;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+
+.cell3 {
+	background-color: #C4DACE;
+	text-align: left;
+	vertical-align: middle;
+	padding: 2px 2px 2px 2px;
+}
+
+.time {
+	font-size: x-small;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.photo {
+	border: medium double #808080;
+	text-align: center;
+}
+
+
+#photo {
+	border: medium double #808080;
+	text-align: center;
+}
+
+.vip_text {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid Navy;
+	padding: 2px 2px 2px 2px;
+	background-color: #DCE9EB;
+}
+
+.hid_comment {
+	background-color: #D9D9D9;
+	font-style: italic;
+	color: Gray;
+}

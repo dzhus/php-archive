@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE modlist SYSTEM "./dtd/modlist.dtd">
+<modlist>
+        <module name="db" type="std" file="db_loader.php" version="0.0.1">
+                <setting name="Driver" desc="Internal db driver name" type="string" value="mysql" />
+                <setting name="DriversFolder" type="string" desc="Path to folder with db drivers" value="shared/db_drivers" />
+        </module>
+        <module name="error_logger" file="error_logger.php" type="core" version="0.0.1" />
+        <module name="blog" type="std" file="blog.php" version="0.0.1" />
+</modlist>

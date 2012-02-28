@@ -1,0 +1,9 @@
+<!ELEMENT layouts (layout+)>
+<!ELEMENT layout EMPTY>
+<!ATTLIST layout
+name            ID              #REQUIRED
+title           CDATA           #REQUIRED
+desc            CDATA           #IMPLIED
+template        NMTOKEN         #REQUIRED
+modules         NMTOKENS        #REQUIRED
+>

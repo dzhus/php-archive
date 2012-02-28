@@ -1,0 +1,7 @@
+<!ELEMENT config (setting+)>
+<!ATTLIST setting 
+name            NMTOKEN                 #REQUIRED
+value           NMTOKEN                 #REQUIRED
+desc            NMTOKEN                 #IMPLIED 
+type            (integer|string|bool)   #REQUIRED
+>

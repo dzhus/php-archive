@@ -1,0 +1,19 @@
+<!ELEMENT modlist (module+)>
+<!ELEMENT module (setting*)>
+<!ELEMENT setting EMPTY>
+<!ATTLIST module 
+          name            ID                      #REQUIRED
+          file            NMTOKEN                 #REQUIRED
+          disabled        (1|0)                   #IMPLIED
+          <!-- core modules run always, std - on demand (w/output) -->
+          type            (core|std)      #REQUIRED
+          deps            IDREFS                  #IMPLIED
+          desc            CDATA                   #IMPLIED
+          version         CDATA                   #REQUIRED
+          >
+<!ATTLIST setting 
+          name            NMTOKEN                 #REQUIRED
+          value           NMTOKEN                 #REQUIRED
+          desc            NMTOKEN                 #IMPLIED
+          type            (integer|string|bool)   #REQUIRED
+          >

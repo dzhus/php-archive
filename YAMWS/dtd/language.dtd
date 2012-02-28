@@ -1,0 +1,6 @@
+<!ELEMENT language (bit+)>
+<!ELEMENT bit CDATA>
+<!ATTLIST bit
+name            ID              #REQUIRED
+comment         CDATA           #IMPLIED
+>
